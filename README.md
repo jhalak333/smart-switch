@@ -43,9 +43,9 @@ this code can be upload to esp8266 microcontroller (esp-01/esp12f/esp12s/esp-01/
 **How to Use:**
 
 **1.	Manual Relay Control:**
-    -	Briefly press button (<1 sec) to toggle relay
-    -	Listen for relay click and check LED
-    -	Verify state in serial monitor
+    - Briefly press button (<1 sec) to toggle relay
+    - Listen for relay click and check LED
+    - Verify state in serial monitor
 
 **2.	Configuration Mode:**
     -	Long-press button (≥2 sec) to enter AP mode
