@@ -3,11 +3,11 @@ power switching system with schedule created in local system, it takes time from
 this code can be upload to esp8266 microcontroller (esp-01/esp12f/esp12s/esp-01/nodemcu ... etc)
 
 Features Included:
-1.	Relay Toggle with Button:
-  o	Press button <1 second to toggle relay state
-  o	Immediate physical response
-  o	State saved to persistent storage
-2.	State Persistence:
+**1.	Relay Toggle with Button:**
+  -	Press button <1 second to toggle relay state
+  -	Immediate physical response
+  -	State saved to persistent storage
+**2.	State Persistence:**
   o	Relay state survives power failures
   o	Automatically restored on boot
   o	Saved to LittleFS after every change
