@@ -3,18 +3,22 @@ power switching system with schedule created in local system, it takes time from
 this code can be upload to esp8266 microcontroller (esp-01/esp12f/esp12s/esp-01/nodemcu ... etc)
 
 **Features Included:**
+
 **1.	Relay Toggle with Button:**
     -	Press button <1 second to toggle relay state
     -	Immediate physical response
     -	State saved to persistent storage
+    
 **2.	State Persistence:**
     -	Relay state survives power failures
     -	Automatically restored on boot
     -	Saved to LittleFS after every change
+    
 **3.	Schedule Management:**
     -	20 time-based action slots
     -	"Save and Run" button restarts system
     -	HH:MM:SS format matching
+    
 **4.	WiFi Handling:**
   -	Automatic reconnection attempts
   -	System restart after 3 minutes offline
